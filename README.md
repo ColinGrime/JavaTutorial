@@ -22,54 +22,30 @@ Be consistent - good luck!
 
 ## Levels
 
-<details><summary>Level 1 Topics</summary>
+<details><summary>Level 1 Topics</summary><p>
 
-	- Comments                   (single/multiline)
-	- Variables                  (declaration vs. initialization)
-	- Operators                  (assignment, arithmetic, unary)
-	- Console I/O                (System.out.println() and Scanner class)
-	- Data types                 (primitives vs. references)
-	- Casting                    (narrowing vs. widening)
-	- Overflow                   (& how to avoid it)
-	- Common Math/String methods
-	- Random class               (+ how to get a random number between two values)
-</details>
+- **Comments**                   (single/multiline)
+- **Variables**                  (declaration vs. initialization)
+- **Operators**                  (assignment, arithmetic, unary)
+- **Console I/O**                (System.out.println() and Scanner class)
+- **Data types**                 (primitives vs. references)
+- **Casting**                    (narrowing vs. widening)
+- **Overflow**                   (& how to avoid it)
+- **Common Math/String methods** (more can be found online)
+- **Random class**               (+ how to get a random number between two values)
 
-<details>
-	<summary>Level 2 Topics</summary>
-</details>
+</p></details>
 
-<details>
-	<summary>Level 3 Topics</summary>
-</details>
+<details><summary>Level 2 Topics</summary><p>
 
-<details>
-	<summary>Level 4 Topics</summary>
-</details>
+- **If statements**     (if...else-if...else ladder)
+- **Operators**         (relational, logical)
+- **Short circuiting**  (concept)
+- **== vs. equals()**   (equality of primitives vs. references)
+- **Tenary operators**  (single line if statements)
+- **Switch statements** (+ break keyword)
 
-<details>
-	<summary>Level 5 Topics</summary>
-</details>
-
-<details>
-	<summary>Level 6 Topics</summary>
-</details>
-
-<details>
-	<summary>Level 7 Topics</summary>
-</details>
-
-<details>
-	<summary>Level 8 Topics</summary>
-</details>
-
-<details>
-	<summary>Level 9 Topics</summary>
-</details>
-
-<details>
-	<summary>Level 10 Topics</summary>
-</details>
+</p></details>
 
 # Exercises
 
