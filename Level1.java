@@ -1,19 +1,18 @@
 import java.util.Scanner;
 import java.util.Random;
 
-/********************************************************************
- * Level 1 Topics:                                                  *
- * - Comments (single/multiline)                                    *
- * - Variables (declaration vs. initialization)                     *
- * - Operators (assignment, artihmetic, unary)                      *
- * - Console I/O (System.out.println() and Scanner class)           *
- * - Data types (primitives vs. references)                         *
- * - Casting (narrowing vs. widening)                               *
- * - Overflow (& how to avoid it)                                   *
- * - Common Math/String methods                                     *
- * - Random class (+ how to get a random number between two values) *
- * - Exercise: Temperature conversion                               *
- ********************************************************************/
+/**********************************************************************************
+ * Level 1 Topics:                                                 				  *
+ * - Comments                   (single/multiline)                                *
+ * - Variables                  (declaration vs. initialization)                  *
+ * - Operators                  (assignment, arithmetic, unary)                   *
+ * - Console I/O                (System.out.println() and Scanner class)          *
+ * - Data types                 (primitives vs. references)                       *
+ * - Casting                    (narrowing vs. widening)                          *
+ * - Overflow                   (& how to avoid it)                               *
+ * - Common Math/String methods (more can be found online)                        *
+ * - Random class               (+ how to get a random number between two values) *
+ **********************************************************************************/
 public class Level1 {
 
 	public static void main(String[] args) {
@@ -138,27 +137,32 @@ public class Level1 {
 		Scanner input = new Scanner(System.in);
 
 		System.out.print("Type something: ");
-		String something = input.next();
+		input.next();
 
+		/*
+		 * PROBLEM: Everything except nextLine() leaves the newline ('\n') character from hitting enter.
+		 */
 		System.out.print("Type your age: ");
-		int age = input.nextInt();
-
-		// PROBLEM -- Everything except nextLine() leaves the newline ('\n') character from hitting enter.
-		System.out.print("Type your name: ");
-		String name = input.nextLine(); // Reads in the '\n' newline character and ignores all other input.
-
-		// SOLUTION -- To fix this, you can read in another line to remove the newline ('\n') character.
-		System.out.print("Type your age: ");
-		input.nextInt(); // Reads in an integer and leaves a newline ('\n') character.
+		input.nextInt();
 
 		System.out.print("Type your name: ");
+		input.nextLine(); // Reads in the newline ('\n') character and ignores all other input.
+
+		/*
+		 * SOLUTION: To fix this, you can read in another line to remove the newline ('\n') character.
+		 */
+		System.out.print("Type your age: ");
+		int age = input.nextInt(); // Reads in an integer and leaves a newline ('\n') character.
 		input.nextLine(); // Reads in the newline ('\n') character.
-		String nameFixed = input.nextLine(); // Reads in the input you want.
+
+		System.out.print("Type your name: ");
+		String name = input.nextLine(); // Reads in the input you want.
+
+		System.out.println(name + " is " + age + " years old!\n");
 
 		/********************************************************************
 		 * Common Math methods (look up "Java Math Javadocs" to learn more) *
 		 ********************************************************************/
-		System.out.println();
 		System.out.println("Round 5.3: "          + Math.round(5.3));
 		System.out.println("Round 5.5: "          + Math.round(5.5));
 		System.out.println("Ceil 1.1: "           + Math.ceil(1.1));
@@ -168,12 +172,12 @@ public class Level1 {
 		System.out.println("√9: "                 + Math.sqrt(9));
 		System.out.println("max(3, 8): "          + Math.max(3, 8));
 		System.out.println("min(3, 8): "          + Math.min(3, 8));
+		System.out.println();
 
 		/************************************************************************
 		 * Common String methods (look up "Java String Javadocs" to learn more) *
 		 ************************************************************************/
 		String example = "Hello World";
-		System.out.println();
 		System.out.println("Lowercase: "                             + example.toLowerCase());
 		System.out.println("Uppercase: "                             + example.toUpperCase());
 		System.out.println("Length: "                                + example.length());
@@ -182,20 +186,13 @@ public class Level1 {
 		System.out.println("Characters between positions 6 and 10: " + example.substring(6, 11));
 		System.out.println("Replace \"Hello\" with \"Bye\": "        + example.replace("Hello", "Bye"));
 		System.out.println("Contains \"World\"?: "                   + example.contains("World"));
+		System.out.println();
 
 		/********************************************
 		 * Random class: Generating random numbers. *
 		 ********************************************/
 		Random rand = new Random();
-		System.out.println();
 		System.out.println("Random number between 0 and 9: " + rand.nextInt(10));
 		System.out.println("Random number between 5 and 15: " + (rand.nextInt((15 - 5) + 1) + 5));
-
-		/********************************************************************************
-		 *                                   Exercise:                                  *
-		 *                                                                              *
-		 * Let the user input an integer x that represents a temperature in Fahrenheit. *
-		 * Convert the given temperature into Celsius.                                  *
-		 ********************************************************************************/
 	}
 }
