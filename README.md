@@ -16,7 +16,7 @@ Here's my recommended usage of this resource:
 
 Working on projects will be the best way to learn all the material.
 If you're like me (and can't ever think of projects to work on), I listed
-numerous [exercises](#Exercises) to supplement this supplement.
+numerous [Exercises](#Exercises) to supplement this supplement.
 
 Be consistent - good luck!
 
@@ -190,7 +190,7 @@ That guess was awful, the number was 1!
 
 </p></details>
 
-<details><summary>Level 2 Exercises</summary><p>
+<details><summary>Level 3 Exercises</summary><p>
 
 ```
 Exercise: GuessTheNumber
