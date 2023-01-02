@@ -132,11 +132,25 @@ Right! +1
 
 What is my age?: 5
 Wrong!
-	
+
 Is programming fun?: Yes
 Right! +1
-	
+
 Your total score was 2/3.
+```
+
+```
+Exercise: RandomColor
+Difficulty: Easy
+
+Description:
+------------
+Generate a random color.
+Print this color out.
+
+Example:
+--------
+Your random color is Blue!
 ```
 
 ```
@@ -152,6 +166,17 @@ If guess = randomNumber, print "Correct!".
 If guess is within +/- 3 of randomNumber, print "Very close!".
 If guess is within +/- 5 of randomNumber, print "Not very close!".
 Else, print "That guess was awful!".
+
+Examples:
+--------
+Guess the number: 5
+Very close, the number was 8!
+
+Guess the number: 3
+Correct!
+
+Guess the number: 9
+That guess was awful, the number was 1!
 ```
 
 </p></details>
