@@ -22,54 +22,30 @@ Be consistent - good luck!
 
 ## Levels
 
-<details><summary>Level 1 Topics</summary>
+<details><summary>Level 1 Topics</summary><p>
 
-	- Comments                   (single/multiline)
-	- Variables                  (declaration vs. initialization)
-	- Operators                  (assignment, arithmetic, unary)
-	- Console I/O                (System.out.println() and Scanner class)
-	- Data types                 (primitives vs. references)
-	- Casting                    (narrowing vs. widening)
-	- Overflow                   (& how to avoid it)
-	- Common Math/String methods
-	- Random class               (+ how to get a random number between two values)
-</details>
+- **Comments**                   (single/multiline)
+- **Variables**                  (declaration vs. initialization)
+- **Operators**                  (assignment, arithmetic, unary)
+- **Console I/O**                (System.out.println() and Scanner class)
+- **Data types**                 (primitives vs. references)
+- **Casting**                    (narrowing vs. widening)
+- **Overflow**                   (& how to avoid it)
+- **Common Math/String methods** (more can be found online)
+- **Random class**               (+ how to get a random number between two values)
 
-<details>
-	<summary>Level 2 Topics</summary>
-</details>
+</p></details>
 
-<details>
-	<summary>Level 3 Topics</summary>
-</details>
+<details><summary>Level 2 Topics</summary><p>
 
-<details>
-	<summary>Level 4 Topics</summary>
-</details>
+- **If statements**     (if...else-if...else ladder)
+- **Operators**         (relational, logical)
+- **Short circuiting**  (concept)
+- **== vs. equals()**   (equality of primitives vs. references)
+- **Tenary operators**  (single line if statements)
+- **Switch statements** (+ break keyword)
 
-<details>
-	<summary>Level 5 Topics</summary>
-</details>
-
-<details>
-	<summary>Level 6 Topics</summary>
-</details>
-
-<details>
-	<summary>Level 7 Topics</summary>
-</details>
-
-<details>
-	<summary>Level 8 Topics</summary>
-</details>
-
-<details>
-	<summary>Level 9 Topics</summary>
-</details>
-
-<details>
-	<summary>Level 10 Topics</summary>
-</details>
+</p></details>
 
 # Exercises
 
@@ -78,22 +54,30 @@ Be consistent - good luck!
 ```
 Exercise: TemperatureConversion
 Difficulty: Easy
-
+	
+Description:
+------------
 Let the user input an integer, temp, that represents a temperature in Fahrenheit.  
 Convert the given temperature from Fahrenheit to Celsius (Google the equation) and print out the result.
-	
+
+Example:
+--------
 Temperature in °F: 102
 It is currently 38.88°C outside!
 ```
-	
+
 ```
 Exercise: SpecialNumber
 Difficulty: Easy
 
+Description:
+------------
 Let the user input an integer, max, that represents a maximum number.
 Generate a random number, x, in the range [0, max].
 Square root x, round to the nearest whole number, and print out the result.
 
+Example:
+--------
 Input a number: 9
 Your random number is 7.
 Your special number is 3! 
@@ -103,6 +87,8 @@ Your special number is 3!
 Exercise: PizzaDay
 Difficulty: Hard
 
+Description:
+------------
 Let the user input two integers, pizzaSlices and pizzaEaters, that represent the number of pizza slices and pizza eaters, respectively.
 Let the user input a string, name, that represents your name.
 
@@ -111,14 +97,86 @@ All pizza eaters (except you) can only eat the average amount of slices, rounded
 Print out the maximum number of pizza slices you can eat.
 
 Optional Constraints:
+---------------------
  - First letter of name should be capitalized. All other letters should be lowercased.
  - The resulting number (maximum pizza slices you can eat) should be an integer. It should not end in ".0".
 
+Example:
+--------
 Slices of pizza: 24
 Number of pizza eaters: 5
 Your name: Colin
 
 Colin can eat up to 8 slices of pizza!
+```
+
+</p></details>
+
+<details><summary>Level 2 Exercises</summary><p>
+
+```
+Exercise: TriviaGame
+Difficulty: Easy
+
+Description:
+------------
+Come up with your own trivia questions!
+Print each question and prompt the user for their answer.
+Compare the user's inputs with the answers to the questions.
+Keep track of a counter variable, correctQuestions, that holds the number of questions answered correctly.
+
+Example:
+--------
+What is my favorite food?: Pizza
+Right! +1
+
+What is my age?: 5
+Wrong!
+
+Is programming fun?: Yes
+Right! +1
+
+Your total score was 2/3.
+```
+
+```
+Exercise: RandomColor
+Difficulty: Easy
+
+Description:
+------------
+Generate a random color.
+Print this color out.
+
+Example:
+--------
+Your random color is Blue!
+```
+
+```
+Exercise: HowClose
+Difficulty: Medium
+
+Description:
+------------
+At the start of the program, generate a random number, randomNumber, between 1 and 10.
+Let the user input an integer, guess, that represents the user's guess on what the number is.
+
+If guess = randomNumber, print "Correct!".
+If guess is within +/- 3 of randomNumber, print "Very close!".
+If guess is within +/- 5 of randomNumber, print "Not very close!".
+Else, print "That guess was awful!".
+
+Examples:
+--------
+Guess the number: 5
+Very close, the number was 8!
+
+Guess the number: 3
+Correct!
+
+Guess the number: 9
+That guess was awful, the number was 1!
 ```
 
 </p></details>
