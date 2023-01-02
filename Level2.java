@@ -81,9 +81,10 @@ public class Level2 {
 		String name = "Bob";
 		age = name.equals("Bob") ? 18 : -1;
 
-		/********************************************************************************************************************
-		 * Switch statements: Multi-way branch statements where a variable is tested for equality against a list of values. *
-		 ********************************************************************************************************************/
+		/***********************************************************************
+		 * Switch statements: Multi-way branch statements where a variable     *
+		 * 					  is tested for equality against a list of values. *
+		 ***********************************************************************/
 		int value = 10;
 		switch (value) {
 			case 1:
