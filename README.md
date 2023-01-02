@@ -47,7 +47,16 @@ Be consistent - good luck!
 
 </p></details>
 
-# Exercises
+<details><summary>Level 3 Topics</summary><p>
+
+- **Loops**        	(while, for, do-while)
+- **Keywords** 	  	(break, continue)
+- **Nested loops** 	(+ example usage)
+- **Variable scope**    (+ examples)
+
+</p></details>
+
+## Exercises
 
 <details><summary>Level 1 Exercises</summary><p>
 
@@ -177,6 +186,65 @@ Correct!
 
 Guess the number: 9
 That guess was awful, the number was 1!
+```
+
+</p></details>
+
+<details><summary>Level 2 Exercises</summary><p>
+
+```
+Exercise: GuessTheNumber
+Difficulty: Medium
+
+Description:
+------------
+At the start of the program, generate a random number, randomNumber, between 1 and 100.
+Let the user continuously input an integer, guess, that represents the user's guess on what the number is.
+Keep track of a counter variable, counter, that holds the number of guesses made.
+
+If guess = randomNumber, print counter and stop the program.
+If guess > randomNumber, increment counter by 1, print "Too high!", and re-start the process.
+If guess < randomNumber, increment counter by 1, print "Too low!" and re-start the process.
+
+Examples:
+--------
+Guess the number: 5
+Too low!
+
+Guess the number: 38
+Too low!
+
+Guess the number: 90
+Too high!
+
+Guess the number: 50
+Too low!
+
+Guess the number: 85
+Too high!
+
+Guess the number: 73
+Correct, it took you 6 guesses!	
+```
+
+```
+Exercise: FizzBuzz
+Difficulty: Medium
+
+Description:
+------------
+Let the user input an integer, max, that represents a maximum number.
+Iterate over all numbers in the range [1, max] and follow the below rules.
+
+If the number is divisible by 3, print "Fizz".
+If the number is divisible by 5, print "Buzz".
+If the number is divisible by both 3 and 5, print "FizzBuzz".
+Else, print the number.
+
+Example:
+--------
+Input a number: 20
+Output: 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz
 ```
 
 </p></details>
