@@ -1,5 +1,11 @@
 import java.util.Arrays;
 
+/**************************************************************************************
+ * Level 4 Topics:    					   		   		   		   		   		      *
+ * - Arrays        	       (accessing, 0-indexed, length attribute, IndexOutOfBounds) *
+ * - Iterating over arrays (printing, for loop, for each loop)				 		  *
+ * - Common Array methods  (more can be found online)								  *
+ *************************************************************************************/
 public class Level4 {
 	
 	public static void main(String[] args) {
