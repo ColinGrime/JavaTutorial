@@ -56,6 +56,14 @@ Be consistent - good luck!
 
 </p></details>
 
+<details><summary>Level 4 Topics</summary><p>
+
+ - **Arrays**        	     (accessing, 0-indexed, length attribute, IndexOutOfBounds)
+ - **Iterating over arrays** (printing, for loop, for each loop)
+ - **Common Array methods**  (more can be found online)
+
+</p></details>
+
 ## Exercises
 
 <details><summary>Level 1 Exercises</summary><p>
